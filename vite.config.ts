@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   root: path.resolve(__dirname, "client"),
-  base: mode === 'production' ? '/Nova-smart.GITHUB.IO/' : '/',
+  base: '/',
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
