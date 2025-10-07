@@ -1,0 +1,52 @@
+npm error code EUSAGE
+npm error
+npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+npm error
+npm error Invalid: lock file's drizzle-orm@0.38.4 does not satisfy drizzle-orm@0.44.6
+npm error Invalid: lock file's drizzle-zod@0.7.1 does not satisfy drizzle-zod@0.8.3
+npm error Invalid: lock file's express@4.21.2 does not satisfy express@5.1.0
+npm error Invalid: lock file's accepts@1.3.8 does not satisfy accepts@2.0.0
+npm error Invalid: lock file's body-parser@1.20.3 does not satisfy body-parser@2.2.0
+npm error Invalid: lock file's content-disposition@0.5.4 does not satisfy content-disposition@1.0.0
+npm error Invalid: lock file's cookie-signature@1.0.6 does not satisfy cookie-signature@1.2.2
+npm error Invalid: lock file's finalhandler@1.3.1 does not satisfy finalhandler@2.1.0
+npm error Invalid: lock file's fresh@0.5.2 does not satisfy fresh@2.0.0
+npm error Invalid: lock file's merge-descriptors@1.0.3 does not satisfy merge-descriptors@2.0.0
+npm error Invalid: lock file's mime-types@2.1.35 does not satisfy mime-types@3.0.1
+npm error Missing: once@1.4.0 from lock file
+npm error Invalid: lock file's qs@6.13.0 does not satisfy qs@6.14.0
+npm error Missing: router@2.2.0 from lock file
+npm error Invalid: lock file's send@0.19.0 does not satisfy send@1.2.0
+npm error Invalid: lock file's serve-static@1.16.2 does not satisfy serve-static@2.2.0
+npm error Invalid: lock file's statuses@2.0.1 does not satisfy statuses@2.0.2
+npm error Invalid: lock file's type-is@1.6.18 does not satisfy type-is@2.0.1
+npm error Invalid: lock file's negotiator@0.6.3 does not satisfy negotiator@1.0.0
+npm error Invalid: lock file's iconv-lite@0.4.24 does not satisfy iconv-lite@0.6.3
+npm error Invalid: lock file's raw-body@2.5.2 does not satisfy raw-body@3.0.1
+npm error Missing: statuses@2.0.1 from lock file
+npm error Invalid: lock file's mime-db@1.52.0 does not satisfy mime-db@1.54.0
+npm error Missing: wrappy@1.0.2 from lock file
+npm error Missing: iconv-lite@0.7.0 from lock file
+npm error Missing: is-promise@4.0.0 from lock file
+npm error Invalid: lock file's path-to-regexp@0.1.12 does not satisfy path-to-regexp@8.3.0
+npm error Invalid: lock file's media-typer@0.3.0 does not satisfy media-typer@1.1.0
+npm error
+npm error Clean install a project
+npm error
+npm error Usage:
+npm error npm ci
+npm error
+npm error Options:
+npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+npm error [--no-bin-links] [--no-fund] [--dry-run]
+npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+npm error
+npm error aliases: clean-install, ic, install-clean, isntall-clean
+npm error
+npm error Run "npm help ci" for more info
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2025-10-07T14_34_42_610Z-debug-0.log
+Error: Process completed with exit code 1.
